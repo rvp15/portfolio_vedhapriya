@@ -58,7 +58,7 @@ const Projects = () => {
             {projects.map((item) => (
               <li
                 key={item.id}
-                className="shadow-md shadow-cyan-600 rounded-lg duration-500 hover:scale-105"
+                className="shadow-md shadow-cyan-600 rounded-lg duration-500 hover:scale-105 "
               ><p className="py-4">{item.title}</p>
                 <img
                   src={item.src}

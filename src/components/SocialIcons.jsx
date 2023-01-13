@@ -11,7 +11,7 @@ function SocialIcons() {
       id: 1,
       link: (
         <>
-          LinkedIn <BsLinkedin size={20} />
+          LinkedIn <BsLinkedin size={40} />
         </>
       ),
       href: "https://www.linkedin.com/in/vedhapriya-rajagopal-82a702232/",
@@ -21,7 +21,7 @@ function SocialIcons() {
       id: 2,
       link: (
         <>
-          GitHub <BsGithub size={20} />
+          GitHub <BsGithub size={40} />
         </>
       ),
       href: "https://github.com/rvp15",
@@ -30,16 +30,16 @@ function SocialIcons() {
       id: 3,
       link: (
         <>
-          Mail <HiOutlineMail size={20} />
+          Mail <HiOutlineMail size={40} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:vedhapriya05@gmail.com",
     },
     {
       id: 4,
       link: (
         <>
-          Resume <BsFillPersonLinesFill size={20} />
+          Resume <BsFillPersonLinesFill size={40} />
         </>
       ),
       href: "/resume.pdf",

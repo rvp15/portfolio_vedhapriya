@@ -11,16 +11,11 @@ const About = () => {
           About
         </p>
         <p className="pt-8 py-6 sm:text-3xl md:text-4xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis qui
-          quos dignissimos ipsum adipisci rerum nulla rem architecto accusantium
-          reiciendis odio modi aut, amet aperiam repellendus pariatur illum?
-          Nobis!
+         I have my bachelor's degree in Information Technology. I started my career as Associate Software Engineer. Where I worked in Support team. Also gained knowledge on application level testing.
         </p>
         <br />
         <p className="pt-8 py-6 sm:text-3xl md:text-4xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non
-          facere exercitationem aut est alias quis sed fuga, cum earum deserunt
-          magni, officiis iste illum saepe? Error ut voluptates perferendis!
+          After Career break I started revamping myself with latest technology to enter into work force. I completed Software Engineering training recently.
         </p>
       </div>
     </div>

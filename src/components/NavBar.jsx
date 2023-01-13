@@ -30,12 +30,12 @@ function NavBar() {
   return (
     <div className="flex justify-between items-center w-full h-20  hover:text-cyan-400 text-white fixed bg-black px-4">
       <div>
-        <h1 className="text-5xl w-6 h-6 duration-800 font-logo ml-2">Vedhapriya Rajagopal</h1>
+        <h1 className="text-7xl w-6 h-6 duration-800 font-logo ml-2">Vedhapriya Rajagopal</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map((item) => (
           <li
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:text-cyan-400 hover:scale-140 duration-200"
+            className=" px-5 text-5xl cursor-pointer capitalize font-bold text-white-500 hover:text-cyan-400 hover:scale-105 duration-200"
             key={item.id}
           >
            <Link to= {item.link} smooth duration={500}> {item.link}</Link>
