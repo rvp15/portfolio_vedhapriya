@@ -10,11 +10,11 @@ const About = () => {
         <p className=" pb-8 text-3xl font-bold inline  hover:text-cyan-400 py-6">
           About
         </p>
-        <p className="pt-8 py-6 sm:text-2xl md:text-3xl">
+        <p className="pt-8 py-6 sm:text-2xl md:text-3xl text-gray-500">
          I have my bachelor's degree in Information Technology. I started my career as Associate Software Engineer. Where I worked in Support team. Also gained knowledge on application level testing.
         </p>
         <br />
-        <p className="pt-8 py-6 sm:text-2xl md:text-3xl">
+        <p className="pt-8 py-6 sm:text-2xl md:text-3xl text-gray-500">
           After Career break I started revamping myself with latest technology to enter into work force. I completed Software Engineering training recently.
         </p>
       </div>
