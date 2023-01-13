@@ -6,11 +6,11 @@ import {Link} from 'react-scroll'
 const Home = () => {
   return (
     // name->used for smooth scroll
-    <div name='home' className='home-cls h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+    <div name='home' className='py-4 h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
     <div className=' max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 text-white md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-3xl sm:text-3xl font-bold'>I'm a Junior Full Stack Developer</h2>
-            <p className='text-gray-500 py-4 max-w-lg pt-8 sm:text-2xl md:text-3xl'>
+            <p className='text-gray-500 py-4 px-2 max-w-lg pt-8 sm:text-2xl md:text-3xl'>
             Software Engineer with 2 years of experience in designing, testing, and developing software
 solutions. In-depth understanding of web technologies with focus on delivering innovative business
 solutions. Excels in a fast-paced, high-energy, and deadline-driven environment with willingness to take
