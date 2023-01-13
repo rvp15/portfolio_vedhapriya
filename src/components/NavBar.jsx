@@ -30,7 +30,7 @@ function NavBar() {
   return (
     <div className="flex justify-between items-center w-full h-20  hover:text-cyan-400 text-white fixed bg-black px-4">
       <div>
-        <h1 className="text-5xl w-6 h-6 duration-800 font-logo ml-2">Vedhapriya Rajagopal</h1>
+        <h1 className="text-3xl w-6 h-6 duration-800 font-logo ml-2">Vedhapriya Rajagopal</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map((item) => (
