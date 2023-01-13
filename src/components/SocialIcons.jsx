@@ -3,7 +3,6 @@ import {
   BsFillPersonLinesFill,
   BsGithub,
   BsLinkedin,
-  BsPersonLinesFill,
 } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 function SocialIcons() {
@@ -54,7 +53,7 @@ function SocialIcons() {
     <div className=" hidden lg:flex top-[35%] fixed left-0 flex-col">
       <ul>
         {links.map(({id,link,href,style,download}) => (
-          <li key={id} className={"w-40 h-14 px-4 py-3 bg-sky-500/50 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 hover:bg-cyan-600" + '' + style}>
+          <li key={id} className={`animate-bounce w-40 h-14 px-4 py-3  ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300  hover:bg-cyan-600 ${style}`}>
             <a
               className="flex justify-between items-center w-full text-white"
               href={href}

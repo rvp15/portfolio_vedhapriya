@@ -16,7 +16,7 @@ solutions. Excels in a fast-paced, high-energy, and deadline-driven environment 
 on additional tasks and learn new skills.
             </p>
             <div>
-                <button className= ' group text-white w-fit px-6 py-3 my-2 flex items-center bg-gradient-to-r from-cyan-500 rounded'>Portfolio <span className='group-hover:rotate-90 duration-300 px-4'><RxDoubleArrowRight/></span></button>
+                <button className= ' group text-white w-fit px-6 py-3 my-2 flex items-center bg-gradient-to-r from-cyan-500 rounded'>Portfolio <span className='group-hover:animate-spin duration-300 px-4'><RxDoubleArrowRight/></span></button>
             </div>
         </div>
         <div><img className='rounded-2xl ' width={350} rounded-lg src={img1} alt='profile pic'/></div>
