@@ -54,7 +54,7 @@ const Projects = () => {
           <p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Projects</p>
           <p className="py-6 pb-8">Check Out Some Of My Work... </p>
      
-          <div  className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center py-8 px-12 sm:px-0 ">
+          <div  className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0 ">
             {projects.map((item) => (
               <li
                 key={item.id}

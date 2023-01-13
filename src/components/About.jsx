@@ -10,14 +10,14 @@ const About = () => {
         <p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400 py-6">
           About
         </p>
-        <p className="pt-8 py-6 ">
+        <p className="pt-8 py-6 sm:text-3xl md:text-4xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis qui
           quos dignissimos ipsum adipisci rerum nulla rem architecto accusantium
           reiciendis odio modi aut, amet aperiam repellendus pariatur illum?
           Nobis!
         </p>
         <br />
-        <p>
+        <p className="pt-8 py-6 sm:text-3xl md:text-4xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non
           facere exercitationem aut est alias quis sed fuga, cum earum deserunt
           magni, officiis iste illum saepe? Error ut voluptates perferendis!
