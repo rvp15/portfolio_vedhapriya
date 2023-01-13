@@ -11,31 +11,37 @@ const Projects = () => {
     {
       id: 1,
       src: tetris,
+      title:'Tetris Game',
       href:'https://github.com/rvp15/MOD1_Project_Tetris'
     },
     {
       id: 2,
       src: art,
+      title:'Online Art Store',
       href: 'https://github.com/rvp15/MOD2_Project_ArtgalleryStore'
     },
     {
       id: 3,
       src: nasa,
+      title:'React Project with NASA API',
       href:'https://github.com/rvp15/MID-MOD-Project-React-App/tree/main/thespace-app'
     },
     {
       id: 4,
       src: mern,
+      title:'Apartment Management-MERN',
       href:'https://github.com/rvp15/Final-Project-MERN-Stack'
     },
     {
       id: 5,
       src: feedback,
+      title:'Feedback App',
       href:'https://github.com/rvp15/Learn_React'
     },
     {
       id: 6,
       src: shopping,
+      title:'Shopping Cart',
       href:'https://github.com/rvp15/react-shoppingapp-context-reducer'
     },
   ];
@@ -43,7 +49,7 @@ const Projects = () => {
     <div
       name="projects"
       className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
      
           <p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Projects</p>
           <p className="py-6 pb-8">Check Out Some Of My Work... </p>
@@ -53,7 +59,7 @@ const Projects = () => {
               <li
                 key={item.id}
                 className="shadow-md shadow-cyan-600 rounded-lg duration-500 hover:scale-105"
-              >
+              ><p className="py-4">{item.title}</p>
                 <img
                   src={item.src}
                   className="rounded-md"
