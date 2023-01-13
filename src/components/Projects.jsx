@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className='pt-2 text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
+      className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
      
           <p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Projects</p>
