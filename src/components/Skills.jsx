@@ -58,8 +58,8 @@ const Skills = () => {
     },
   ]  
   return (
-    <div name='skills' className='object-contain text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
-      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full ">
+    <div name='skills' className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
+      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full object-contain">
         <div><p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Skills</p><p  className="py-6 pb-8">These are Techologies I have worked with</p></div>
      
       <div  className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">

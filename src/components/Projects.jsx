@@ -48,8 +48,8 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen object-contain'>
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
+      className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen '>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full object-contain">
      
           <p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Projects</p>
           <p className="py-6 pb-8">Check Out Some Of My Work... </p>
