@@ -58,7 +58,7 @@ const Skills = () => {
     },
   ]  
   return (
-    <div name='skills' className=' text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
+    <div name='skills' className='pt-2 text-white bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen'>
       <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full ">
         <div><p className=" pb-8 text-4xl font-bold inline  hover:text-cyan-400">Skills</p><p  className="py-6 pb-8">These are Techologies I have worked with</p></div>
      
