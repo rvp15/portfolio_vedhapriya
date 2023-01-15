@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../assets/img2.jpg'
+import img1 from '../assets/img1.jpg'
 import {RxDoubleArrowDown} from 'react-icons/rx'
 import {Link} from 'react-scroll'
 

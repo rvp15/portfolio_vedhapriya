@@ -35,7 +35,7 @@ function NavBar() {
       <ul className="hidden md:flex">
         {links.map((item) => (
           <li
-            className=" px-5 text-3xl cursor-pointer capitalize font-bold text-white-500 hover:text-cyan-400 hover:scale-105 duration-200"
+            className=" px-5 text-3xl cursor-pointer capitalize text-white-500 hover:text-cyan-400 hover:scale-105 duration-200"
             key={item.id}
           >
            <Link to= {item.link} smooth duration={500}> {item.link}</Link>
