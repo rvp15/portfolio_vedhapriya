@@ -65,7 +65,7 @@ const Skills = () => {
       <div  className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 px-12 sm:px-0">
        {skills.map((item)=>(
         <li key={item.id}
-        className="shadow-md shadow-cyan-600 rounded-lg duration-500 hover:scale-105">
+        className="shadow-md shadow-cyan-600 rounded-lg duration-500 hover:scale-105 list-none">
             <img
                   src={item.src}
                   className="rounded-md "
