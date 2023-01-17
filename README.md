@@ -1,1 +1,1 @@
-Protfoilo Website: https://jazzy-pie-769fc8.netlify.app/
+Protfoilo Website: vedhapriya-portfolio.netlify.app
