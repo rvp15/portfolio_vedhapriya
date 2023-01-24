@@ -11,7 +11,7 @@ const About = () => {
           About
         </p>
         <p className="pt-8 py-6 sm:text-2xl md:text-3xl text-gray-500">
-         I got my bachelor's degree in Information Technology. I started my career as Associate Software Engineer. Where I worked in Support team. Also gained knowledge on application level testing.
+         I have my bachelor's degree in Information Technology. I started my career as Associate Software Engineer. Where I worked in Support team, Also gained knowledge on application level testing.
         </p>
         <br />
         <p className="pt-8 py-6 sm:text-2xl md:text-3xl text-gray-500">
